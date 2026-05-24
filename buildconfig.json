@@ -1,0 +1,21 @@
+{
+    "System": {
+        "Name": "infinity_alive",
+        "Version": "0.1.0",
+        "Mode": "Debug",
+        "CacheDir":".infinity_build"
+    },
+    "PreDefineds": {
+        "Default": false,
+        "Defineds": []
+    },
+    "Source": {
+        "Files": [
+            "src/*.psm1"
+        ]
+    },
+    "Boot": {
+        "Require": "Main",
+        "EntryPoint": "Invoke-Main"
+    }
+}
